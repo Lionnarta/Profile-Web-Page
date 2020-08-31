@@ -77,9 +77,9 @@ a:hover {
 button {
     font-family: 'Gayathri', sans-serif;
     font-weight: 100;
-    background-color: rgb(146, 124, 124);
+    background-color: white;
     border: 2px solid rgb(146, 124, 124);
-    color: white;
+    color: black;
     text-align: center;
     font-size: 1.7rem;
     margin-bottom: 0;
