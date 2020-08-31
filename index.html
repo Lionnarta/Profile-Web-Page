@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/profile.css">
     <title>Profile</title>
 </head>
 <body>
     
+    <!-- Container -->
     <div class="container">
+        <!-- Top Container -->
         <div class="top">
             <img id="back" src="img/background/19366.jpg">
-
+            
             <div class="foto">
                 <img src="img/13518128.jpg">
             </div>
@@ -27,14 +31,59 @@
                 <a href="https://www.itb.ac.id/">Institut Teknologi Bandung</a>
             </div>
         </div>
+        <!-- Top Container -->
 
+        <!-- Bottom Container -->
         <div class="bottom">
-            <p id="content"></p>
+            <button id="first" onclick="navBarAboutMe()">About Me</button>
+            <button onclick="navBarContact()">Contact</button>
+            <div id="content">
+                
+                <!-- Opening -->
+                <div id="opening">
+                    <p id="op">Halo,</p>
+                    <p style="font-size: 1.5rem;">Nama saya Lionnarta Savirandy, Mahasiswa Teknik Informatika 2018 Institut Teknologi Bandung.</p>
+                </div>
+                <!-- Opening -->
+
+                <!-- About Me Bar -->
+                <div id="aboutMe">
+                    <pre>Nama                            : Lionnarta Savirandy</pre>
+                    <pre>Tempat Tanggal Lahir : Pankalpinang, 19 August 2000</pre>
+                    <pre>Alamat                          : Bandung, Jawa Barat</pre>
+                    <pre>Pendidikan                   : Institut Teknologi Bandung (2018 - sekarang)</pre>
+                </div>
+                <!-- About Me Bar -->
+                
+                <!-- Contact Bar -->
+                <div id="contact">
+                    <div class="block">
+                        <img class="ikon" src="img/ikon/fb.png">
+                        <a class="kontak" href="https://www.facebook.com/lionnartasavi.randy">Lionnarta Savirandy</a>
+                    </div>
+                    <div class="block">
+                        <img class="ikon" src="img/ikon/phone.png">
+                        <a class="kontak" href="tel:+6281278482540">+62-812-7848-2540</a>
+                    </div>
+                    <div class="blockSec">
+                        <img class="ikon" src="img/ikon/ig.png">
+                        <a class="kontak" href="https://www.instagram.com/lionnarta/?hl=en">lionnarta</a>
+                    </div>
+                    <div class="blockSec">
+                        <img class="ikon" src="img/ikon/mail.png">
+                        <a class="kontak" href="mailto:13518128@std.stei.itb.ac.id">13518128@std.stei.itb.ac.id</a>
+                    </div>
+                </div>
+                <!-- Contact Bar -->
+
+            </div>
+            <script src="js/script.js"></script>
         </div>
+        <!-- Bottom Container -->
     </div>
-
-
-
-
+    
+    
+    
+    
 </body>
 </html>

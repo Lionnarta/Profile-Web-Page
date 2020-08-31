@@ -8,7 +8,7 @@ body {
 }
 
 .top {
-    height: 600px;
+    height: 650px;
 }
 
 #back {
@@ -65,12 +65,72 @@ a:hover {
 
 #content {
     width: 80%;
+    height: auto;
     min-height: 300px;
     border: 2px solid rgb(146, 124, 124);
-    margin: 10px auto;
+    margin: 0 auto 80px;
     padding: 10px;
     box-shadow: 10px 10px #c4c4bc;
     border-radius: 1%;
+}
+
+button {
+    font-family: 'Gayathri', sans-serif;
+    font-weight: 100;
+    background-color: rgb(146, 124, 124);
+    border: 2px solid rgb(146, 124, 124);
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+    width: 10%;
+    min-width: 150px;
+    height: 40px;
+}
+
+#first{
+    margin-left: 10%;
+}
+
+#aboutMe {
+    display: none;
+}
+
+#contact {
+    display: none;
+}
+
+.ikon {
+    width: 100px;
+}
+
+.block {
+    float: left;
+    width: 40%;
+    margin-bottom: 80px;
+    margin-left: 6%;
+}
+
+.blockSec {
+    float: left;
+    width: 40%;
+    margin-left: 6%;
+}
+
+pre {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+.kontak {
+    display: inline-block;
+}
+
+#op {
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    margin: 50px 0 0;
 }
 
 /* BOTTOM CONTAINER */
